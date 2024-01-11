@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D928EE45-9971-43C6-B1EB-CD87FB828810}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>program-integerx-x86-debug</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-api\IntegerxportableAPI\Integerxportableapi.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-api\IntegerxportableAPI\Type\Public\Decrement\Decrement.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementBaseHexadecimal\DecrementBaseHexadecimal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementBase\DecrementBase.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementRecurse\DecrementRecurse.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementControl\DecrementControl.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementDeshuffle\DecrementDeshuffle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementHexadecimal\DecrementHexadecimal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementReturn\DecrementReturn.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementTime\DecrementTime.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\DecrementTrim\DecrementTrim.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportabledecrement\Type\Variation\Decrement\Decrement.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportableincrement\Type\Variation\IncrementReady\IncrementReady.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportableincrement\Type\Variation\IncrementTime\IncrementTime.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportableincrement\Type\Variation\IncrementBase\IncrementBase.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportableincrement\Type\Variation\IncrementControl\IncrementControl.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportableincrement\Type\Variation\IncrementReturn\IncrementReturn.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportableincrement\Type\Variation\IncrementShuffle\IncrementShuffle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportableincrement\Type\Variation\Increment\Increment.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-fatal\Integerxportablefatal\Integerxportablefatal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportableerror\Initializeraw\IntegerxportableerrorInitializeraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportableerror\Integerxportableerror.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportableerror\Object\IntegerxportableerrorObject\IntegerxportableerrorObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportableerror\Type\Public\Initialize\Initialize.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportableisc\Integerxportableisc.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportableism\Integerxportableism.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Integerxportablemagic.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\ArrayListCast\IntegerxportablemagicDispenserArrayListCast.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\ArrayList\IntegerxportablemagicDispenserArrayList.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\LinkedListCast\IntegerxportablemagicDispenserLinkedListCast.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\LinkedListNodeCast\IntegerxportablemagicDispenserLinkedListNodeCast.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\LinkedListNode\IntegerxportablemagicDispenserLinkedListNode.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\LinkedList\IntegerxportablemagicDispenserLinkedList.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\StackCast\IntegerxportablemagicDispenserStackCast.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablemagic\Type\Dispenser\Stack\IntegerxportablemagicDispenserStack.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Integerxportablerender.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\CreateDirectory\CreateDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\FullName\FullName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\Error\Error.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\CreateFile\CreateFile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\FileName\FileName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\Normalize\Normalize.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\RenderError\RenderError.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-portable\Integerxportablerender\Type\Public\Render\Render.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-ascii\IntegerxportableAscii\Partition\Integerxportableascii.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-name\IntegerxportableName\Partition\Integerxportablename.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportableadd\Integerxportableadd.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportableadd\Type\Public\Add\Add.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Integerxportablehostbuffer.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\Int32Buffer\GroupInt32Buffer.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\SingleBuffer\GroupSingleBuffer.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehost\Integerxportablehost.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Integerxportabledecrement.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementRecurse\DecrementRecurse.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementBaseHexadecimal\DecrementBaseHexadecimal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementBase\DecrementBase.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementControl\DecrementControl.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementDeshuffle\DecrementDeshuffle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementHexadecimal\DecrementHexadecimal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementReturn\DecrementReturn.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementTime\DecrementTime.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\DecrementTrim\DecrementTrim.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportabledecrement\Type\Public\Decrement\Decrement.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehost\Set\Object\Surface\IntegerxportablehostSetObjectSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehost\Type\Group\Int32\GroupInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehost\Type\Group\Single\GroupSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehost\Set\Object\IntegerxportablehostSetObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportableincrement\Integerxportableincrement.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablesubtract\Integerxportablesubtract.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablesubtract\Type\Public\Subtract\Subtract.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportableunite\Integerxportableunite.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportableunite\Object\IntegerxportableuniteObject\IntegerxportableuniteObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportableunite\Type\Forge\Default\ForgeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Compressraw\IntegerxportableCompressraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Compress\IntegerxportableCompress.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Informationraw\IntegerxportableInformationraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Integerxportable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Link\Code\IntegerxportableLinkCode.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Link\Policy\IntegerxportableLinkPolicy.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Object\IntegerxportableObject\IntegerxportableObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Prototype\IntegerxportablePrototype.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Simple\Partition\Simple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Static\IntegerxportableStatic.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-studio\Studio\4\AssemblyInfo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Forge\Volume\ForgeVolume.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Make\Default\IntegerxportableMakeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Make\Default\Surface\IntegerxportableMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Public\Export\Export.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Public\Import\Import.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Public\Parse\Parse.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Sealed\Character\Character.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Sealed\Node\Node.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Sequence\Debug\IntegerxportableSequenceDebug.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Sequence\IntegerxportableSequence.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Set\Unwrapdigit\IntegerxportableSetUnwrapdigit.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Set\Unwrapdigit\Surface\IntegerxportableSetUnwrapdigitSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Set\Warpdigit\IntegerxportableSetWrapdigit.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101\Integerxportable\Type\Set\Warpdigit\Surface\IntegerxportableSetWrapdigitSurface.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-studio\Studio\2\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-studio\Studio\3\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\ByteBuffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\DecimalBuffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\DoubleBuffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\Int16Buffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\Int64Buffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\SByteBuffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\UInt16Buffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\UInt32Buffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehostbuffer\Type\Group\UInt64Buffer\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehost\Type\Group\Decimal\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportablehost\Type\Group\Double\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-utility\IntegerxportableUtility\Integerxportableincrement\Type\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-integerx-101-studio\Studio\1\Document.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

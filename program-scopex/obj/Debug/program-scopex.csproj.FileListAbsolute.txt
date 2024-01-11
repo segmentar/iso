@@ -1,0 +1,6 @@
+C:\Users\todor\OneDrive\Desktop\Isolated\program-scopex\bin\Debug\program-scopex-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-scopex\bin\Debug\program-scopex-x86-debug.pdb
+C:\Users\todor\OneDrive\Desktop\Isolated\program-scopex\obj\Debug\program-scopex.csproj.AssemblyReference.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-scopex\obj\Debug\program-scopex.csproj.CoreCompileInputs.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-scopex\obj\Debug\program-scopex-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-scopex\obj\Debug\program-scopex-x86-debug.pdb

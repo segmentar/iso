@@ -1,0 +1,12 @@
+C:\Users\todor\OneDrive\Desktop\program-integerx\obj\Debug\program-integerx.csproj.AssemblyReference.cache
+C:\Users\todor\OneDrive\Desktop\program-integerx\obj\Debug\program-integerx.csproj.CoreCompileInputs.cache
+C:\Users\todor\OneDrive\Desktop\program-integerx\bin\Debug\program-integerx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\program-integerx\bin\Debug\program-integerx-x86-debug.pdb
+C:\Users\todor\OneDrive\Desktop\program-integerx\obj\Debug\program-integerx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\program-integerx\obj\Debug\program-integerx-x86-debug.pdb
+C:\Users\todor\OneDrive\Desktop\Isolated\program-integerx\bin\Debug\program-integerx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-integerx\bin\Debug\program-integerx-x86-debug.pdb
+C:\Users\todor\OneDrive\Desktop\Isolated\program-integerx\obj\Debug\program-integerx.csproj.AssemblyReference.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-integerx\obj\Debug\program-integerx.csproj.CoreCompileInputs.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-integerx\obj\Debug\program-integerx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-integerx\obj\Debug\program-integerx-x86-debug.pdb

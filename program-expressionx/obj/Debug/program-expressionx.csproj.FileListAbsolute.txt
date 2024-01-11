@@ -1,0 +1,8 @@
+C:\Users\todor\OneDrive\Desktop\program-expressionx\obj\Debug\program-expressionx.csproj.AssemblyReference.cache
+C:\Users\todor\OneDrive\Desktop\program-expressionx\obj\Debug\program-expressionx.csproj.CoreCompileInputs.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-expressionx\bin\Debug\program-expressionx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-expressionx\bin\Debug\program-expressionx-x86-debug.pdb
+C:\Users\todor\OneDrive\Desktop\Isolated\program-expressionx\obj\Debug\program-expressionx.csproj.AssemblyReference.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-expressionx\obj\Debug\program-expressionx.csproj.CoreCompileInputs.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-expressionx\obj\Debug\program-expressionx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-expressionx\obj\Debug\program-expressionx-x86-debug.pdb

@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6BBFFA5-25F3-4E1C-AE33-F253715122A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>program-expressionx-x86-debug</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Expressionxportableapi.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\Empty\Empty.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\ExecuteProject\ExecuteProject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\ExecuteFull\ExecuteFull.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\Execute\Execute.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\LoadFromSystem\LoadFromSystem.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\LoadFromSpace\LoadFromSpace.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\LoadFromCurrentDirectoryFolder\LoadFromCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\LoadFromCurrentDirectory\LoadFromCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\Load\Load.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\Root\Root.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\SaveToSystem\SaveToSystem.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\SaveToSpace\SaveToSpace.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\SaveToCurrentDirectoryFolder\SaveToCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\SaveToCurrentDirectory\SaveToCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportablefatal\Expressionxportablefatal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportablehostfatal\Expressionxportablehostfatal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Type\Variation\Branch\Branch.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Type\Variation\Cut\Cut.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Type\Variation\Operation\Operation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Type\Variation\Release\Release.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Type\Variation\Unlock\Unlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablelinear\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablelinear\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablereadfile\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablereadfile\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablereadfile\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablereadfile\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablereadfile\Function\Type\Void\Default\FunctionVoidDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablereadfile\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\2\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\2\XDouble\XDouble.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\2\XSecondary\XSecondary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\2\XSecond\XSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\2\XTwo\XTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\3\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\3\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\3\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\3\XTertiary\XTertiary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\3\XThird\XThird.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\3\XThree\XThree.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\3\XTriple\XTriple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\Type\Void\Default\FunctionVoidDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\XFourth\XFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\XFour\XFour.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\XQuadruple\XQuadruple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\4\XQuatenary\XQuaternary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\5\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\5\Type\Forge\Root\ForgeRoot.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\5\XFifth\XFifth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\5\XFive\XFive.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\5\XQuinary\XQuinary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Function\5\XQuintuple\XQuintuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportableread\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\1\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\1\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\2\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\2\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\2\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\2\XDouble\XDouble.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\2\XSecondary\XSecondary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\2\XSecond\XSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\2\XTwo\XTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\3\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\3\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\3\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\3\XTertiary\XTertiary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\3\XThird\XThird.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\3\XThree\XThree.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\3\XTriple\XTriple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\4\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\4\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\4\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\4\XFourth\XFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\4\XFour\XFour.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\4\XQuadruple\XQuadruple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\4\XQuatenary\XQuatenary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\5\Type\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\5\Type\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\5\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\5\XFifth\XFifth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\5\XFive\XFive.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\5\XQuinary\XQuinary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\5\XQuintuple\XQuintuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\6\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\6\Type\Set\Default\FunctionSetXlev__Y.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\6\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\6\XSenary\XSenary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\6\XSextuple\XSextuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\6\XSixth\XSixth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\6\XSix\XSix.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\7\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\7\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\7\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\7\XSentuple\XSentuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\7\XSeptenary\XSeptenary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\7\XSeventh\XSeventh.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\7\XSeven\XSeven.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\8\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\8\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\8\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\8\XEighth\XEighth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\8\XEight\XEight.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\8\XOctonary\XOctonary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Function\8\XOctuple\XOctuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritebuild\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\0\Type\Void\Default\FunctionVoidDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewritefile\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\2\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\2\XDouble\XDouble.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\2\XSecondary\XSecondary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\2\XSecond\XSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\2\XTwo\XTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\3\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\3\XTertiary\XTertiary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\3\XThird\XThird.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\3\XThree\XThree.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Function\3\XTriple\XTriple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-module\ExpressionxportableModule\Expressionxportablewrite\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableio\Expressionxportableio.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableio\Type\Set\File\ExpressionxportableSetFile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableio\Type\Set\File\Surface\ExpressionxportableSetFileSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableio\Type\Set\Folder\ExpressionxportableSetFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableio\Type\Set\Folder\Surface\ExpressionxportableSetFolderSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablemagic\Type\Dispenser\LinkedListNode\ExpressionxportablemagicDispenserLinkedListNode.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablemagic\Type\Dispenser\LinkedListNodeCast\ExpressionxportablemagicDispenserLinkedListNodeCast.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-port\Expressionxportableport\Partition\Port.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecutetext\Expressionxportableexecutetext.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Type\ExecuteFile\ExecuteFile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Type\ExecuteProject\ExecuteProject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Type\ExecuteText\ExecuteText.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablehost\Expressionxportablehost.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecutearray\Object\ExpressionxportableexecutearrayObject\ExpressionxportableexecutearrayObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablefilesystemfolder\Expressionxportablefilesystemfolder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablefilesystemfile\Expressionxportablefilesystemfile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Type\ExecuteSchedule\ExecuteSchedule.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablefilesystemfolder\Type\Public\Adapt.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablefilesystemhook\Expressionxportablefilesystemhook.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablehost\Type\Public\HostStreamClose\HostStreamClose.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Branch\H\HBranch.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Branch\I\IBranch.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Branch\Surface\Branch.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Cut\H\HCut.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Cut\I\ICut.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Cut\Surface\Cut.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\H\HULock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\H\HVLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\H\HVULock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\U\ULock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\VU\VULock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\V\VLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Operation\H\HOperation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Operation\I\IOperation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Operation\Surface\Operation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Release\H\HRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Release\IS\ISRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Release\I\IRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Release\Surface\Release.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\H\HVTUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\H\HTUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\H\HUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\H\HVUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\IS\ISUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\I\IUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\Surface\Unlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\VT\VTUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\T\TUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Unlock\V\VUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Sealedraw\ExpressionxportableSealedraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Depart\Multiline\2\Doublesecondarysecondtwo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Part\Execute\0\Execute.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Part\Execute\1\Onefirstprimarysingle.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Part\Execute\2\Twosecondsecondarydouble.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Part\Execute\3\Threethirdtertiarytriple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Part\Execute\4\Fourfourthquatenaryquadruple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Part\Execute\5\Fivefithquinaryquintuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Depart\Multiline\1\Singleprimaryfirstone.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Public\Export\Export.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Public\Import\Import.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Depart\Multiline\0\Multiline.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Public\Singleline\Singleline.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Type\Public\Sync\Sync.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteadapt\Expressionxportableremoteadapt.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteadapt\Type\Public\Adapt.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\Char\GroupChar.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\Object\GroupObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Expressionxportableremoteout.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\Char\GroupChar.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\Boolean\GroupBoolean.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\Byte\GroupByte.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\UInt64\GroupUInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\UInt32\GroupUInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\UInt16\GroupUInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\SByte\GroupSByte.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\Int16\GroupInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\Int32\GroupInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\Int64\GroupInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\Object\GroupObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Group\String\GroupString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremoteout\Type\Public\Remote\Remote.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelinear\Expressionxportablelinear.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableloadcontext\Expressionxportableloadcontext.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablereadclose\Expressionxportablereadclose.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableload\Expressionxportableload.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableload\Type\Public\LoadFromCurrentDirectoryFolder\LoadFromCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableload\Type\Public\LoadFromCurrentDirectory\LoadFromCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableload\Type\Public\LoadFromSpace\LoadFromSpace.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableload\Type\Public\LoadFromSystem\LoadFromSystem.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableload\Type\Public\Load\Load.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablerenderlog\Expressionxportablerenderlog.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablerenderlog\Type\Public\Log\Log.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablesavecontext\Expressionxportablesavecontext.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablewriteclose\Expressionxportablewriteclose.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablesave\Type\Public\SaveToSystem\SaveToSystem.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-api\ExpressionxportableAPI\Type\Public\Save\Save.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Expressionxportableinstructionfatal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Type\Variation\Lock\Lock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportableinstructionfatal\Type\Variation\View\View.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportablefatal\Type\Variation\All\All.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-level\ExpressionxportableLevel\Partition\Level.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableerror\Expressionxportableerror.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableerror\Initializeraw\ExpressionxportableerrorInitializeraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableerror\Object\ExpressionxportableerrorObject\ExpressionxportableerrorObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableerror\Type\Public\Initialize\Initialize.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableisc\Expressionxportableisc.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportableism\Expressionxportableism.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablemagic\Expressionxportablemagic.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablemagic\Type\Dispenser\ArrayListCast\ExpressionxportablemagicDispenserArrayListCast.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablemagic\Type\Dispenser\ArrayList\ExpressionxportablemagicDispenserArrayList.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablemagic\Type\Dispenser\LinkedListCast\ExpressionxportablemagicDispenserLinkedListCast.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablemagic\Type\Dispenser\LinkedList\ExpressionxportablemagicDispenserLinkedList.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Expressionxportablerender.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\CreateDirectory\CreateDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\CreateFile\CreateFile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\Error\Error.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\FileName\FileName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\FullName\FullName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\Normalize\Normalize.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\RenderError\RenderError.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablerender\Type\Public\Render\Render.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablesafe\Expressionxportablesafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablesafe\Type\Forge\CharacterArray\ForgeCharacterArray.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablesafe\Type\Forge\Character\ForgeCharacter.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablesafe\Type\Forge\String\ForgeString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablestringsafe\Expressionxportablestringsafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-portable\Expressionxportablestringsafe\Type\Forge\Default\ForgeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-ascii\ExpressionxportableAscii\Partition\Expressionxportableascii.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-name\ExpressionxportableName\Partition\Expressionxportablename.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-radical\ExpressionxportableRadical\Expressionxportableradical.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-sealed\Expressionxportablebuild\Expressionxportablebuild.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelayout\Expressionxportablelayout.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablelayout\Object\ExpressionxportablelayoutObject\ExpressionxportablelayoutObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecutearray\Expressionxportableexecutearray.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Expressionxportableinstruction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\H\HLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\IS\ISLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\I\ILock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\Lock\Surface\Lock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\View\H\HView.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\View\IS\ISView.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\View\I\IView.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableinstruction\Type\Group\View\Surface\View.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Expressionxportableremotein.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\Boolean\GroupBoolean.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\Byte\GroupByte.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\Int16\GroupInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\Int32\GroupInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\Int64\GroupInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\SByte\GroupSByte.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\String\GroupString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\UInt16\GroupUInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\UInt32\GroupUInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Group\UInt64\GroupUInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Public\RemoteAll\RemoteAll.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableremotein\Type\Public\Remote\Remote.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Dedicate\Immutable\Immutable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Expressionxportableconfiguration.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Link\Default\ExpressionxportableconfigurationLinkDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Object\ExpressionxportableconfigurationObject\ExpressionxportableconfigurationObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Type\Public\Copy\Copy.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Type\Public\Data\Data.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Type\Public\Export\Export.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableconfiguration\Type\Public\Import\Import.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Expressionxportableexecute.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Type\ExecuteAsync\ExecuteAsync.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Type\ExecuteFull\ExecuteFull.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableexecute\Type\Execute\Execute.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableformat\Expressionxportableformat.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableformat\Type\Public\DashfulFormat\DashfulFormat.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableformat\Type\Public\DashlessFormat\DashlessFormat.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableformat\Type\Public\RepresentString\RepresentString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablesave\Expressionxportablesave.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablesave\Type\Public\SaveToSpace\SaveToSpace.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableset\Expressionxportableset.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Compressraw\ExpressionxportableCompressraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Compress\ExpressionxportableCompress.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Expressionxportable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Informationraw\ExpressionxportableInformationraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Link\Code\ExpressionxportableLinkCode.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Link\Policy\ExpressionxportableLinkPolicy.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Object\ExpressionxportableObject\ExpressionxportableObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Prototype\ExpressionxportablePrototype.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablesave\Type\Public\SaveToCurrentDirectoryFolder\SaveToCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablesave\Type\Public\SaveToCurrentDirectory\SaveToCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablesave\Type\Public\Save\Save.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableset\Set\All\ExpressionxportableSetAll.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportableset\Set\All\Surface\ExpressionxportableSetAllSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\ExpressionxCategory\Expressionxportablef\Sealedraw\Partition\ExpressionxportableSealedraw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Simple\Partition\ExpressionxportableSimple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Static\ExpressionxportableStatic.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-studio\4\AssemblyInfo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Type\Make\Default\ExpressionxportableMakeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Type\Make\Default\Surface\ExpressionxportableMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Type\Sequence\Debug\ExpressionxportableSequenceDebug.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Type\Sequence\ExpressionxportableSequence.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Type\Variation\Empty\ExpressionxportableVariationEmpty.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\Expressionxportable\Type\Variation\Root\ExpressionxportableVariationRoot.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-studio\1\Document.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-fatal\Expressionxportablehostfatal\Type\Variation\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-studio\2\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-studio\3\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101-utility\Expressionxportablehost\legacy\" />
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-expressionx-101\ExpressionxCategory\Expressionxportablef\Type\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
